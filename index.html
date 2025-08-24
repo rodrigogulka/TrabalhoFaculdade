@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Turismo no Brasil</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Turismo no Brasil - Explorando belezas naturais e culturais</h1>
+    </header>
+
+    <main>
+        <!-- Subtítulo -->
+        <h2>Brasil pode ser o melhor destino nas férias</h2>
+        <p>O Brasil é um país vasto e exuberante, repleto de belezas naturais únicas,
+         cidades históricas que preservam séculos de cultura e tradição, além de uma diversidade cultural marcada por influências indígenas, africanas e europeias.
+          De suas florestas tropicais e cachoeiras imponentes às praias paradisíacas e centros urbanos modernos, o Brasil oferece experiências inesquecíveis para viajantes em busca de aventura, lazer e conhecimento.</p>
+
+          <br>
+
+          <!-- Lista Ordenada-->
+        <h3>Top 5 melhores lugares para viajar no Brasil</h3>
+        <ol>
+            <li>Rio de Janeiro</li>
+            <li>Fernando de Noronha</li>
+            <li>Foz do Iguaçu</li>
+            <li>Lençois Maranhenses</li>
+            <li>Salvador</li>
+        </ol>
+
+        <!-- Imagem com alt -->
+        <div>
+            <img src="cristoredentor.jpg" 
+                alt="Cristo Redentor no Rio de Janeiro" width="400">
+        </div>
+        
+        <br>
+
+        <!-- Lista não ordenada -->
+        <h4>Motivos de Fazer uma Viagem:</h4>
+        <ul>
+            <li>Autoconhecimento</li>
+            <li>Sair da rotina</li>
+            <li>Celebrar uma data</li>
+        </ul>
+        
+        <br>
+
+        <!-- Texto com redirecionamento via links -->
+        <h5 style="font-size:18px;">Viaje no conforto e rapidez de um avião, compre já sua passagem:</h5>
+        <a href="https://www.voeazul.com.br/home/br/pt/home" target="_blank">Azul</a>
+        <br>
+        <a href="https://www.voegol.com.br/nh/" target="_blank">Gol</a>
+        <br>
+        <a href="https://www.latamairlines.com/br/pt" target="_blank">Latam</a>
+
+        <br>
+
+        <!-- Tabela -->
+        <h6 style="font-size:18px;">Preços médios de hotéis:</h6>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Cidade</th>
+                    <th>Preço Médio (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Salvador</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Foz do Iguaçu</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Média</strong></td>
+                    <td><strong>250</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+
+        <!-- Formulário -->
+        <h6 style="font-size:18px;">Cadastre-se para receber novidades</h6>
+        <form>
+            <!-- Input Text -->
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" name="nome">
+            <br></br>
+
+            <!-- Input e-mail -->
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br></br>
+
+            <!-- Campo de seleção -->
+            <label for="destino">Destino de interesse:</label>
+            <br>
+            <select id="destino" name="destino">
+                <option value="rio">Rio de Janeiro</option>
+                <option value="foz">Foz do Iguaçu</option>
+                <option value="noronha">Fernando de Noronha</option>
+                <option value="lencois">Lençois Maranhenses</option>
+                <option value="salvador">Salvador</option>
+            </select>
+            <br></br>
+
+            <!-- Botão de envio -->
+            <button type="submit">Enviar</button>
+
+        </form>
+    </main>
+
+</body>
+</html>
